@@ -1,0 +1,57 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ / Android Studio
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# VS Code (로컬 설정·캐시)
+.vscode/
+
+# Flutter / Dart / Pub
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# build_runner 자동 생성 코드 (README의 build_runner 명령으로 재생성)
+**/*.g.dart
+**/*.freezed.dart
+
+# Symbolication / obfuscation
+app.*.symbols
+app.*.map.json
+
+# Android Studio 빌드 산출물
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# 환경 변수 (비밀값 포함 — .env.example은 커밋)
+.env
+server/.env
+
+# Python (server/scripts 크롤링 등)
+__pycache__/
+*.py[cod]
+.venv/
+venv/

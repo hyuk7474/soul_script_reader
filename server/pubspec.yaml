@@ -1,0 +1,12 @@
+name: soul_script_reader_server
+description: Soul Script Reader API 서버
+publish_to: 'none'
+
+environment:
+  sdk: ^3.10.0
+
+dependencies:
+  shelf: ^1.4.2
+  shelf_router: ^1.1.4
+  mysql_client_plus: ^0.1.2
+  dotenv: ^4.2.0
